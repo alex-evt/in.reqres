@@ -7,7 +7,7 @@ import models.User;
 import static io.restassured.RestAssured.given;
 import static utils.StringConstant.*;
 
-public class BaseAdapter {
+public abstract class BaseAdapter {
 
     protected Gson converter = new Gson();
 
